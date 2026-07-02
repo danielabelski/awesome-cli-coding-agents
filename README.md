@@ -365,6 +365,8 @@ Multi-agent coordination, swarm patterns, and autonomous execution loops. Sorted
 
 - **[agx](https://github.com/ramarlina/agx)** `⭐ 25` — Checkpoint-based execution engine for AI coding agents; durable Wake→Work→Sleep loops that resume instantly across sessions. Supports Claude Code, Codex CLI, Gemini CLI, and Ollama. CLI + web dashboard + macOS app.
 
+- **[5dive](https://github.com/5dive-ai/5dive)** `⭐ 15` — Run a company of AI coding agents on a server you own: one-command spin-up of named agents (Claude Code, Codex, Grok, and more), cron + heartbeat scheduling, multi-agent orchestration, Telegram control, and a babysit + needs-you triage dashboard. Self-hosted. MIT.
+
 - **[Galley](https://github.com/shinpr/galley)** `⭐ 11` — Local-first runtime for supervised AI coding tasks: isolated git worktrees, supervisor review against acceptance criteria, retry/escalate loops, on-disk run evidence, and PR handoff. Supports Codex CLI and Claude Code. Go, MIT.
 
 - **[ralph-harness](https://github.com/rxdt/py_ralph_frame)** `⭐ 6` — Minimal repo-local loop scaffold for Claude Code, Codex CLI, and Gemini CLI. Uses `PROMPT.md`, specs, fresh-context iterations, git hooks, CI verification, and hard iteration/time caps so agents make small gated commits instead of drifting in one long chat. MIT.
@@ -451,6 +453,8 @@ Sandboxes, routers, browser/terminal automation, and extension tools. Sorted by 
 
 - **[codex-profiles](https://github.com/Ducksss/codex-profiles)** `⭐ 36` — Bash CLI helper for switching OpenAI Codex CLI/Desktop accounts via isolated `CODEX_HOME` profiles; Homebrew install with `brew install Ducksss/tap/codex-profile`. MIT, no token copying.
 
+- **[RoleCraft](https://github.com/sametcelikbicak/rolecraft)** `⭐ 35` — Zero-dependency CLI to install AI agent skills as roles & behaviors from any source (local folder or GitHub repo). Works with opencode, Claude Code, Cursor, and 30+ spec-compliant agents; no marketplace or signup required.
+
 - **[pi-reflect](https://github.com/jo-inc/pi-reflect)** `⭐ 35` — Self-improving behavioral files for coding agents; automated self-reviews that evolve AGENTS.md rules from actual mistakes. MIT.
 
 - **[skillreaper](https://github.com/thousandflowers/skillreaper)** `⭐ 33` — CLI that reads real session transcripts to find skills, MCP servers, and agents loaded but never fired, then safely quarantines them in a reversible operation. Supports Claude Code, Codex CLI, Hermes, OpenCode, Cursor, and OpenClaw. Zero telemetry, single static binary, Homebrew and npm. MIT.
@@ -462,6 +466,8 @@ Sandboxes, routers, browser/terminal automation, and extension tools. Sorted by 
 - **[EchoCoding](https://github.com/launsion-boop/EchoCoding)** `⭐ 26` — Audio layer for CLI coding agents with hook-triggered SFX, ambient soundscape, and optional cloud TTS/ASR voice interaction for Codex and Claude Code workflows.
 
 - **[agent-runbook](https://github.com/KnoxOps/agent-runbook)** `⭐ 24` — Python CLI that compiles contract-based YAML runbooks into SKILL.md files for Claude Code and Codex agents. Define multi-step workflows with loops, branching, parallelism, checkpoints, and file-based state passing between steps. `pip install git+https://github.com/KnoxOps/agent-runbook.git`
+
+- **[AgentPack](https://github.com/vishal2612200/agentpack)** `⭐ 21` — Local context engine for CLI coding agents: routes tasks to relevant files, tests, repo rules, skills, and commands, then writes compact context packs and MCP/CLI receipts for Claude Code, Codex, Cursor, Windsurf, and other agents.
 
 - **[Unship](https://github.com/mbenhard/unship)** `⭐ 14` — Local CLI and browser picker for comparing temporary UI variants created by coding agents, then keeping one and cleaning up unused code. MIT.
 
