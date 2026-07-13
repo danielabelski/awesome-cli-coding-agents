@@ -61,7 +61,7 @@ Forkable, extensible, and community-driven. Sorted by GitHub stars. Provider tag
 
 - **[Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)** `⭐ 64.4k` — Terminal tool that can execute code and actions; often used as a "do things on my machine" agent.
 
-- **[Goose](https://github.com/block/goose)** `⭐ 51.1k` — Local, extensible agent that can execute, edit, and test; designed to run on-device and integrate with MCP.
+- **[Goose](https://github.com/aaif-goose/goose)** `⭐ 51.1k` — Local, extensible agent that can execute, edit, and test; designed to run on-device and integrate with MCP.
 
 - **[Aider](https://github.com/Aider-AI/aider)** `⭐ 47.3k` — Pair-programming agent for editing files via diffs/patches, with strong git and multi-file workflows.
 
@@ -395,8 +395,6 @@ Multi-agent coordination, swarm patterns, and autonomous execution loops. Sorted
 
 - **[Forge](https://github.com/LucasDuys/forge)** `⭐ 32` — Autonomous spec-driven development loop for Claude Code; three-command pipeline (brainstorm specs, plan task DAGs, execute autonomously) with context survival, backpropagation that traces bugs to spec gaps, and Claude-on-Claude code review. MIT.
 
-- **[Loopy](https://github.com/arjunkshah/loopy)** `⭐ 29` — Kanban-based agent operating system that orchestrates 43 coding-agent CLIs (Codex, Claude Code, Cursor, Gemini) with complexity-aware routing, named subagents, and verifiable execution receipts. Core loop runs fully locally; optional integrations via user-provided API keys.
-
 - **[agx](https://github.com/ramarlina/agx)** `⭐ 26` — Checkpoint-based execution engine for AI coding agents; durable Wake→Work→Sleep loops that resume instantly across sessions. Supports Claude Code, Codex CLI, Gemini CLI, and Ollama. CLI + web dashboard + macOS app.
 
 - **[5dive](https://github.com/5dive-ai/5dive)** `⭐ 21` — Run a company of AI coding agents on a server you own: one-command spin-up of named agents (Claude Code, Codex, Grok, and more), cron + heartbeat scheduling, multi-agent orchestration, Telegram control, and a babysit + needs-you triage dashboard. Self-hosted. MIT.
@@ -489,8 +487,6 @@ Sandboxes, routers, browser/terminal automation, and extension tools. Sorted by 
 
 - **[Wit](https://github.com/amaar-mc/wit)** `⭐ 45` — Coordination protocol that prevents merge conflicts between parallel AI agents. Locks specific functions (not files) via Tree-sitter AST parsing; agents declare intents, acquire symbol-level locks, and get conflict warnings before writing code. JSON-RPC daemon. MIT.
 
-- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 42` — Local macOS menubar app that narrates Claude Code and Codex sessions with a Global Mix, blocker alerts, and BYOK voice; built with Electron. Apache-2.0.
-
 - **[skillreaper](https://github.com/thousandflowers/skillreaper)** `⭐ 42` — CLI that reads real session transcripts to find skills, MCP servers, and agents loaded but never fired, then safely quarantines them in a reversible operation. Supports Claude Code, Codex CLI, Hermes, OpenCode, Cursor, and OpenClaw. Zero telemetry, single static binary, Homebrew and npm. MIT.
 
 - **[Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard)** `⭐ 40` — Local Rust scanner and MCP proxy for AI-agent prompt injection, credential leakage, exfiltration, and risky tool-call arguments before execution. MIT.
@@ -540,8 +536,6 @@ Sandboxes, routers, browser/terminal automation, and extension tools. Sorted by 
 - **[clu](https://github.com/arjia-labs/clu)** `⭐ 6` — Codified Likeness Utility: a SQLite-backed issue tracker for coordinating fleets of AI coding agents. Atomic task claim, dependency graphs, workflows & checkpoints, and an audit log. CLI-native with clean `--json` output, built to be driven by agents. Go.
 
 - **[Terminai](https://github.com/emosenkis/terminai)** `⭐ 6` — Makes your terminal of choice AI-enabled using your favorite CLI coding agent. Completely transparent until you activate the AI with Ctrl-Space, then runs your agent in an overlay with access to your terminal.
-
-- **[pi-builder](https://github.com/arosstale/pi-builder)** `⭐ 5` — TypeScript monorepo that wraps any installed CLI coding agent (Claude Code, Aider, OpenCode, Codex, Gemini CLI, Goose, Plandex, SWE-agent, Crush, gptme) behind a single interface; capability-based routing, health caching, fallback chains, SQLite persistence, and a streaming OrchestratorService. MIT.
 
 - **[OSOP](https://github.com/Archie0125/osop-agent-rules)** `⭐ 4` — Universal workflow logging protocol for CLI coding agents; produces `.osop` workflow definitions and `.osoplog.yaml` execution records. Supports Claude Code, Codex, Cursor, Windsurf, Aider, Cline, Roo Code, Devin, and OpenClaw. Includes a [visual editor](https://osop-editor.vercel.app) and [spec](https://github.com/Archie0125/osop-spec).
 
